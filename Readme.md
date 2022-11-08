@@ -34,3 +34,9 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 ```js
 ^([\d]{2}[\.][\d]{3}[\.][\d]{3}[\/][\d]{4}[\-][\d]{2}|[\d]{14})$
 ```
+
+* UUID 4
+
+```js
+^([A-F\d]{8}-[A-F\d]{4}-[4][A-F\d]{3}-[89AB][A-F\d]{3}-[A-F\d]{12}|[a-f\d]{8}-[a-f\d]{4}-[4][a-f\d]{3}-[89ab][a-f\d]{3}-[a-f\d]{12})$
+```
