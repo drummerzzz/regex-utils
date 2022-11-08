@@ -23,3 +23,9 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 ```js
 ^[\d]{5}-?[\d]{3}$
 ```
+
+* CPF
+
+```js
+^(([\d]{3}[\.]){2}[\d]{3}[\-][\d]{2}|[\d]{11})$
+```
