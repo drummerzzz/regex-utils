@@ -11,3 +11,9 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 ```js
 ^([\w]+|[\w]+[\-\_\.]?[\w]+)+@([\w-]+\.)+[a-zA-Z\-]{2,4}$
 ```
+
+* Telefone fixo e Celular
+
+```js
+^([\(][\d]{2}[\)]|[\d]{2})[\s]?([9][1-9][\d]{3}|[1-9][\d]{3})[-]?[\d]{4}$
+```
