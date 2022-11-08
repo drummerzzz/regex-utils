@@ -12,6 +12,14 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 ^([\w]+|[\w]+[\-\_\.]?[\w]+)+@([\w-]+\.)+[a-zA-Z\-]{2,4}$
 ```
 
+* Senha
+
+```js
+^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[\d])(?=.*?[^\w\s]).{8,}$
+```
+###### No mínimo 8 caracteres, Número, Letra maiuscula, Letra menuscula, caractere especial.
+<br>
+
 * Telefone fixo e Celular
 
 ```js
