@@ -21,7 +21,7 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 * Cep
 
 ```js
-^[\d]{5}-?[\d]{3}$
+^[\d]{5}[\-]?[\d]{3}$
 ```
 
 * CPF
