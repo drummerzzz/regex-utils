@@ -15,5 +15,11 @@ Criei esse projeto para reutilizar expressões regulares criadas por mim e que s
 * Telefone fixo e Celular
 
 ```js
-^([\(][\d]{2}[\)]|[\d]{2})[\s]?([9][1-9][\d]{3}|[1-9][\d]{3})[-]?[\d]{4}$
+^(([\(][\d]{2}[\)]|[\d]{2})[\s]?([9][1-9][\d]{3}|[1-9][\d]{3})[-]?[\d]{4})$
+```
+
+* Cep
+
+```js
+^[\d]{5}-?[\d]{3}$
 ```
